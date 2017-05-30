@@ -3,9 +3,9 @@
 - ckpr.tcl - make prefix list from ASnum or AS-SET
 - ckas.tcl - expand AS-SET to ASnum list
 
-All incoming data are reading from stdin. Result is fetching from RIPE DB route objects by origin field. Needing the <b>whois</b> utility.
+All incoming data are reading from <i>stdin</i>. Result is fetching from [RIPE DB](https://apps.db.ripe.net/search/query.html?searchtext=) route objects by origin field. Needing the <b>whois</b> utility.
 
-For aggregate prefixes may use an utility in [bgptablehole](https://github.com/Urlandi/bgptablehole)
+For aggregate prefixes may use an utility in [bgptablehole](https://github.com/Urlandi/bgptablehole).
 
 For example:
 
